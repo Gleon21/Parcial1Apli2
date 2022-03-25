@@ -6,7 +6,7 @@
 @model Parcial1Apli2.Models.monto
 <html>
 <head>
-    <title>Chivo</title>
+    <title>Cajero</title>
 </head>
 <body>
     @using (Html.BeginForm())
@@ -14,7 +14,7 @@
         @Html.AntiForgeryToken()
 
         <div class="form-horizontal">
-            <h4>Monto</h4>
+            <h4>Cajero</h4>
             <hr />
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             <div class="form-group">

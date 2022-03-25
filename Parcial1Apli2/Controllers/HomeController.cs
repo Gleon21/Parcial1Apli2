@@ -18,7 +18,7 @@ namespace Parcial1Apli2.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(Double Monto )
+        public IActionResult Index(Double Monto)
         {
             if (ModelState.IsValid)
             {
